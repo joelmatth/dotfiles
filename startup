@@ -1,0 +1,11 @@
+#!/bin/bash
+
+redshift -l 51.27:-2.35 &
+compton &
+volumeicon &
+nm-applet &
+xautolock -time 20 -locker slock &
+setxkbmap gb -option ctrl:nocaps &
+amixer sset Master 100% &
+xset s 1800 1800 &          # Blank display after half an hour
+xset dpms 2700 2700 3600    # Minutes for display powersave

@@ -1,0 +1,17 @@
+#!/bin/bash
+
+for filename in *; do
+    case "$filename"
+    in
+    README.md)
+        ;;
+    install)
+        ;;
+    update)
+        ;;
+    *) ln -s "$HOME/dotfiles/${filename}" "$HOME/.${filename}"
+    esac
+done
+
+cd "$HOME/dotfiles"
+git submodule update --init
