@@ -42,8 +42,8 @@ if has("gui_running")
     set lines=46
     set guioptions-=T
     if has("gui_gtk2")
-        set guifont=Inconsolata-dz\ Medium\ 9
+        set guifont=DejaVu\ Sans\ Mono\ 9,Monospace\ 9
     elseif has("gui_win32")
-        set guifont=Inconsolata-dz:h9
+        set guifont=Consolas:h9
     endif
 endif
