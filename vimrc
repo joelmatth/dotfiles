@@ -32,7 +32,7 @@ autocmd FileType make setlocal noexpandtab
 
 if exists("&colorcolumn")
     set colorcolumn=+1
-    highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
+    highlight ColorColumn ctermbg=grey guibg=grey
 else
     match ErrorMsg '\%>80v.\+'
 endif
