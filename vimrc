@@ -23,6 +23,10 @@ set encoding=utf-8
 set fileformat=unix
 set spelllang=en_gb
 
+" Solarized light color scheme
+set background=light
+colorscheme solarized
+
 highlight TrailingWhitespace ctermbg=darkgreen guibg=lightgreen
 autocmd InsertEnter * match TrailingWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match TrailingWhitespace /\s\+$/
