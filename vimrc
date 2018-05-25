@@ -19,6 +19,7 @@ set linebreak           " Wrap lines between words
 set tabstop=4           " Number of spaces to indent tabs
 set shiftwidth=4        " Number of spaces to autoindent
 set expandtab           " Insert spaces instead of tabs
+set mouse=a             " Enable mouse support
 set encoding=utf-8
 set fileformat=unix
 set spelllang=en_gb
