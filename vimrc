@@ -28,6 +28,9 @@ set spelllang=en_gb
 set background=light
 colorscheme solarized
 
+" Use a space instead of a pipe in between vertical splits
+set fillchars+=vert:\ 
+
 highlight TrailingWhitespace ctermbg=darkgreen guibg=lightgreen
 autocmd InsertEnter * match TrailingWhitespace /\s\+\%#\@<!$/
 autocmd InsertLeave * match TrailingWhitespace /\s\+$/
