@@ -5,6 +5,10 @@ for filename in *; do
     in
     README.md)
         ;;
+    init.el)
+        mkdir -p "$HOME/.emacs.d"
+        ln -s "$HOME/dotfiles/${filename}" "$HOME/.emacs.d/"
+        ;;
     install)
         ;;
     update)
