@@ -1,21 +1,16 @@
 (require 'package)
-
-;; Add melpa package source when using package list
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
-
-;; Load emacs packages and activate them
-;; This must come before configurations of installed packages.
-;; Don't delete this line.
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
-(unless (package-installed-p 'evil)
-  (package-install 'evil))
+(defvar my-packages '(evil
+                      solarized-theme
+                      cider))
 
-(unless (package-installed-p 'solarized-theme)
-  (package-install 'solarized-theme))
-
-(unless (package-installed-p 'cider)
-  (package-install 'cider))
+(dolist (p my-packages)
+  (unless (package-installed-p p)
+    (package-refresh-contents)
+    (package-install p)))
 
 (require 'evil)
 (evil-mode 1)
