@@ -6,7 +6,7 @@ for filename in *; do
     README.md)
         ;;
     init.el)
-        mkdir -p "$HOME/.emacs.d"
+        mkdir -p "$HOME/.emacs.d/auto-save"
         ln -s "$HOME/dotfiles/${filename}" "$HOME/.emacs.d/"
         ;;
     install)
