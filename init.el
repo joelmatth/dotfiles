@@ -17,5 +17,5 @@
 
 (load-theme 'solarized-light t)
 
-(setq auto-save-file-name-transforms
-  `((".*" ,(concat user-emacs-directory "auto-save/") t)))
+(setq backup-directory-alist
+      '(("." . (concat user-emacs-directory "auto-save/"))))
