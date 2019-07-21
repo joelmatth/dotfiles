@@ -18,6 +18,7 @@ set textwidth=79        " Wrap lines after 79 characters
 set linebreak           " Wrap lines between words
 set tabstop=4           " Number of spaces to indent tabs
 set shiftwidth=4        " Number of spaces to autoindent
+set shiftround          " Shift to the next indentation level
 set expandtab           " Insert spaces instead of tabs
 set mouse=a             " Enable mouse support
 set encoding=utf-8
