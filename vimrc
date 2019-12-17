@@ -13,7 +13,6 @@ set incsearch           " Search as you type
 set hlsearch            " Highlight search results
 set ignorecase          " Case-insensitive searching
 set smartcase           " ...unless search contains upper case chars
-set formatprg=par\ -w80 " Use par for formatting
 set textwidth=79        " Wrap lines after 79 characters
 set linebreak           " Wrap lines between words
 set tabstop=4           " Number of spaces to indent tabs
