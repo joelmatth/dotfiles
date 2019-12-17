@@ -15,5 +15,9 @@
     dump = cat-file -p
 [core]
     excludesfile = ~/.gitignore_global
+[merge]
+    conflictstyle=diff3
+    prompt=false
+    tool=vimdiff
 [push]
     default = simple
