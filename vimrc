@@ -37,6 +37,7 @@ autocmd InsertLeave * match TrailingWhitespace /\s\+$/
 
 autocmd FileType gitcommit setlocal tw=72 spell
 autocmd FileType make setlocal noexpandtab
+autocmd FileType go setlocal noexpandtab ts=8 sw=8
 
 if exists("&colorcolumn")
     set colorcolumn=+1
