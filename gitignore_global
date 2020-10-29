@@ -39,3 +39,7 @@ Thumbs.db
 # Temporary files #
 ###################
 *.swp
+
+# Vim help tags #
+#################
+doc/tags
