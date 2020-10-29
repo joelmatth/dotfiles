@@ -12,8 +12,8 @@ export PATH=~/bin:~/.cargo/bin:$PATH
 # Aliases
 alias ls='ls --color=auto'
 alias spd='wget -O /dev/null '\
-'http://download.microsoft.com/download/0/A/F/0AFB5316-3062-494A-AB78'\
-'-7FB0D4461357/Windows_Win7SP1.7601.17514.101119-1850.AMD64CHK.Symbols.msi'
+'https://download.microsoft.com/download/4/E/C/'\
+'4EC66C83-1E15-43FD-B591-63FB7A1A5C04/Windows8.1-KB2919355-x86.msu'
 
 # Prompt
 GIT_PROMPT=/usr/share/git/completion/git-prompt.sh
