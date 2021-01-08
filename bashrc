@@ -6,8 +6,7 @@ set -o vi
 
 # Environment variables
 export EDITOR=vim
-export PRINTER=Brother_DCP-7055
-export PATH=~/bin:~/.cargo/bin:$PATH
+export PATH=~/bin:$PATH
 
 # Aliases
 alias ls='ls --color=auto'
