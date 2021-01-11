@@ -6,7 +6,6 @@ set -o vi
 
 # Environment variables
 export EDITOR=vim
-export PATH=~/bin:$PATH
 
 # Aliases
 alias ls='ls --color=auto'
