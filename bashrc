@@ -14,7 +14,9 @@ alias spd='wget -O /dev/null '\
 '4EC66C83-1E15-43FD-B591-63FB7A1A5C04/Windows8.1-KB2919355-x86.msu'
 
 # Prompt
-GIT_PROMPT=/usr/lib/git-core/git-sh-prompt
+if [ -z ${GIT_PROMPT} ]; then
+    GIT_PROMPT=/usr/lib/git-core/git-sh-prompt
+fi
 
 if [ -f "${GIT_PROMPT}" ]; then
     source "${GIT_PROMPT}"
