@@ -18,7 +18,7 @@ if [ -z ${GIT_PROMPT} ]; then
     GIT_PROMPT=/usr/lib/git-core/git-sh-prompt
 fi
 
-if [ -f "${GIT_PROMPT}" ]; then
+if [ -e "${GIT_PROMPT}" ]; then
     source "${GIT_PROMPT}"
 
     GIT_PS1_SHOWDIRTYSTATE=1
