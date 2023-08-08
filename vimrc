@@ -1,6 +1,3 @@
-execute pathogen#infect()
-execute pathogen#helptags()
-
 filetype on
 filetype indent on
 filetype plugin on

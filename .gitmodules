@@ -1,27 +1,27 @@
 [submodule "vim/bundle/fugitive"]
-	path = vim/bundle/fugitive
+	path = vim/pack/plugins/start/fugitive
 	url = https://github.com/tpope/vim-fugitive
 [submodule "vim/bundle/tcomment"]
-	path = vim/bundle/tcomment
+	path = vim/pack/plugins/start/tcomment
 	url = https://github.com/tomtom/tcomment_vim
 [submodule "vim/bundle/solarized"]
-	path = vim/bundle/solarized
+	path = vim/pack/plugins/start/solarized
 	url = https://github.com/altercation/vim-colors-solarized
 [submodule "vim/bundle/ctrlp"]
-	path = vim/bundle/ctrlp
+	path = vim/pack/plugins/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim
 [submodule "vim/bundle/fireplace"]
-	path = vim/bundle/fireplace
+	path = vim/pack/plugins/start/fireplace
 	url = https://github.com/tpope/vim-fireplace
 [submodule "vim/bundle/cljfmt"]
-	path = vim/bundle/cljfmt
+	path = vim/pack/plugins/start/cljfmt
 	url = https://github.com/venantius/vim-cljfmt
 [submodule "vim/bundle/vim-go"]
-	path = vim/bundle/vim-go
+	path = vim/pack/plugins/start/vim-go
 	url = https://github.com/fatih/vim-go.git
 [submodule "vim/bundle/vim-sexp"]
-	path = vim/bundle/vim-sexp
+	path = vim/pack/plugins/start/vim-sexp
 	url = https://github.com/guns/vim-sexp
 [submodule "vim/bundle/vim-sexp-mappings-for-regular-people"]
-	path = vim/bundle/vim-sexp-mappings-for-regular-people
+	path = vim/pack/plugins/start/vim-sexp-mappings-for-regular-people
 	url = https://github.com/tpope/vim-sexp-mappings-for-regular-people
