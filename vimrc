@@ -1,12 +1,5 @@
-filetype on
-filetype indent on
-filetype plugin on
-syntax on
-
-set nocompatible        " Disable Vi compatibility
 set smartindent         " Indent following line in e.g function def.
 set autoindent          " Indent following line to same as previous
-set incsearch           " Search as you type
 set hlsearch            " Highlight search results
 set ignorecase          " Case-insensitive searching
 set smartcase           " ...unless search contains upper case chars
